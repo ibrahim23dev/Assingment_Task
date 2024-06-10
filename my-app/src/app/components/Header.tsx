@@ -12,15 +12,15 @@ const NavBar = () => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "offer", label: "Offer" },
-    { to: "destination", label: "Destination" },
+
     { to: "service", label: "Services" },
     { to: "contact", label: "Contact" },
   ];
 
   return (
     <nav className="bg-slate-800">
-      <div className="container mx-auto px-4 lg:px-6 py-4 lg:py-6 flex items-center justify-between">
-        <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+      <div className="container mx-auto px-4 lg:px-6 py-3 lg:py-6 flex items-center justify-between">
+        <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-400">
           Logo
         </span>
         <div className="hidden lg:flex items-center gap-8 text-white">

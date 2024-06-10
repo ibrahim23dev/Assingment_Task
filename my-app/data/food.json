@@ -1,56 +1,34 @@
 {
   "foodee": [
     {
-      "id": "1",
-      "name": "Salad",
-      "type": "Vegetarian"
+      "id": "3136c662-827b-442e-b0a9-af0f4d186f57",
+      "name": "Butter chicken",
+      "type": "non-vegetarian",
+      "description": "A famous dish from Tamil Nadu..."
     },
     {
-      "id": "2",
-      "name": "Veg Burger",
-      "type": "Vegetarian"
+      "id": "df9ce938-7c8c-4408-ab0e-7b6bd9dc18b4",
+      "name": "Mutton curry",
+      "type": "non-vegetarian",
+      "description": "A dish from the Indian subcontinent.."
     },
     {
-      "id": "",
-      "name": "FoodPanda",
-      "type": "Chicken",
-      "description": "This is very good Quality"
+      "id": "18a69763-8892-46db-8dc8-0adf1bd900cb",
+      "name": "Rogan josh",
+      "type": "non-vegetarian",
+      "description": "A Kashmiri dish"
     },
     {
-      "id": "7",
-      "name": "545tfg",
-      "type": "ggg",
-      "description": "ggg"
+      "id": "2ad97c9f-3942-4ca4-a9fd-9a2932a1b074",
+      "name": "Biriyani",
+      "type": "non-vegetaria",
+      "description": "A Mughal dish "
     },
     {
-      "id": "8",
-      "name": "fff",
-      "type": "ff",
-      "description": "ff"
-    },
-    {
-      "id": "9",
-      "name": "gg",
-      "type": "ff",
-      "description": "ff"
-    },
-    {
-      "id": "18",
-      "name": "ff",
-      "type": "ff",
-      "description": "ff"
-    },
-    {
-      "id": "19",
-      "name": "good",
-      "type": "bsd",
-      "description": "foof"
-    },
-    {
-      "id": "",
-      "name": "fdfdf",
-      "type": "dffdf",
-      "description": "dfdfdf"
+      "id": "0e42f951-f77e-4786-9480-1c1277a13c44",
+      "name": "Fruits",
+      "type": "vegetarian",
+      "description": "apples, bananas, berries, oranges, melons"
     }
   ],
   "categories": [

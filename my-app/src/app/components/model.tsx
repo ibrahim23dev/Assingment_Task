@@ -5,7 +5,7 @@ interface ModalProps {
   modelOpen: boolean;
   closeModal: () => void;
 }
-
+import { v4 as uuidv4 } from 'uuid';
 const Modal: React.FC<ModalProps> = ({ modelOpen, closeModal }) => {
   const Router = useRouter();
   const [foodName, setFoodName] = useState<string>("");
@@ -15,7 +15,7 @@ const Modal: React.FC<ModalProps> = ({ modelOpen, closeModal }) => {
   const handleSubmitFood: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
                                 await addFood({
-      id:"",
+      id: uuidv4(),
       name: foodName,
       type: foodType,
       description: foodDescription,

@@ -73,29 +73,29 @@ const FoodList: React.FC<FoodListProps> = ({ foods }) => {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="pt-3 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 shadow-inner">
       {foods.map((food, index) => (
-        <div key={index} className="card w-72 bg-slate-600 shadow-xl">
-          
+        <div key={index} className="card w-72 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 shadow-xl">
           <div className="card-body ">
-            <h2 className="card-title">
+            <div className="badge badge-secondary">NEW</div>
+            <h2 className="card-title text-yellow-50 font-bold text-[26px] line-clamp-1 object-cover object-center">
               {food.name}
-              <div className="badge badge-secondary">NEW</div>
+              
             </h2>
-                                                                                                <p>{food.type}</p>
-                                                                                                <p>{food.description}</p>
+            <p className="text-white font-semibold text-[14px] line-clamp-2">{food.type}</p>
+            <p className="text-white font-normal text-[11px] line-clamp-2">{food.description}</p>
             <div className="card-actions justify-end ml-2">
               <div
                 className="badge badge-outline cursor-pointer"
                 onClick={() => openModalEdit(index)}
               >
-                <FaEdit size={25} className="text-green-500" />
+                <FaEdit size={25} className=" text-green-800" />
               </div>
               <div
                 className="badge badge-outline cursor-pointer"
                 onClick={() => openModalDelete(index)}
               >
-                <MdDelete size={25} className="text-red-500" />
+                <MdDelete size={25} className="text-red-700" />
               </div>
             </div>
           </div>
@@ -147,7 +147,9 @@ const FoodList: React.FC<FoodListProps> = ({ foods }) => {
       {modelOpenDelete && (
         <div className="modal modal-open">
           <div className="modal-box">
-            <h3 className="font-bold text-lg mb-4">Are you sure you want to delete this food?</h3>
+            <h3 className="font-bold text-lg mb-4">
+              Are you sure you want to delete this food?
+            </h3>
             <div className="modal-action">
               <button className="btn btn-ghost" onClick={closeModalDelete}>
                 Cancel
