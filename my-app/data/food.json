@@ -1,0 +1,74 @@
+{
+  "foodee": [
+    {
+      "id": "1",
+      "name": "Salad",
+      "type": "Vegetarian"
+    },
+    {
+      "id": "2",
+      "name": "Veg Burger",
+      "type": "Vegetarian"
+    },
+    {
+      "id": "",
+      "name": "FoodPanda",
+      "type": "Chicken",
+      "description": "This is very good Quality"
+    },
+    {
+      "id": "7",
+      "name": "545tfg",
+      "type": "ggg",
+      "description": "ggg"
+    },
+    {
+      "id": "8",
+      "name": "fff",
+      "type": "ff",
+      "description": "ff"
+    },
+    {
+      "id": "9",
+      "name": "ff",
+      "type": "ff",
+      "description": "ff"
+    },
+    {
+      "id": "18",
+      "name": "ff",
+      "type": "ff",
+      "description": "ff"
+    },
+    {
+      "id": "19",
+      "name": "good",
+      "type": "bsd",
+      "description": "foof"
+    },
+    {
+      "id": "",
+      "name": "fdfdf",
+      "type": "dffdf",
+      "description": "dfdfdf"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Starters",
+      "menuItems": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Main Course",
+      "menuItems": [
+        4,
+        5
+      ]
+    }
+  ]
+}
