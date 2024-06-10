@@ -23,18 +23,18 @@ Follow these steps to set up and run the project on your local machine.
    npm install
    ```
 
-6. Navigate to the project directory:
+6. Run here json-server to the my-app directory:
    ````
     npm run json-server
     ```
 7. Open a another terminal and go to my-app directory:
    ````
     cd my-app
-    ```
-   
+   ````
+8. Run here  my-app directory:   
    ````
     npm run dev
-    ```
+    ````
 
 
 ## Usage
