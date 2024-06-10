@@ -12,6 +12,6 @@ Before you begin, ensure you have the following installed:
 ## Getting Started
 
 1. **Clone the repository:**
-https://github.com/ibrahim23dev/Assingment_Task.git
-   ```bash
+
+   ```bash https://github.com/ibrahim23dev/Assingment_Task.git
   
